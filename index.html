@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Odi’s Pizzeria | Wood-Fired Hearth</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&amp;family=Be+Vietnam+Pro:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "surface": "#fff8f5",
+                        "error-container": "#ffdad6",
+                        "primary-container": "#008807",
+                        "surface-dim": "#e1d8d4",
+                        "on-tertiary-container": "#fffbff",
+                        "tertiary": "#9e3d00",
+                        "secondary-container": "#eb0000",
+                        "outline-variant": "#bccbb4",
+                        "primary-fixed": "#76ff64",
+                        "on-secondary-fixed": "#410000",
+                        "surface-variant": "#e9e1dc",
+                        "on-background": "#1e1b18",
+                        "on-primary-fixed": "#002200",
+                        "on-secondary-fixed-variant": "#930100",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-tint": "#006e04",
+                        "on-tertiary-fixed-variant": "#7c2e00",
+                        "on-primary-fixed-variant": "#005302",
+                        "inverse-surface": "#34302c",
+                        "on-surface-variant": "#3e4a39",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed": "#351000",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#c64f00",
+                        "on-secondary-container": "#fffbff",
+                        "on-tertiary": "#ffffff",
+                        "secondary": "#bc0100",
+                        "primary": "#006c04",
+                        "surface-container-high": "#efe6e2",
+                        "secondary-fixed-dim": "#ffb4a8",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdbcd",
+                        "surface-bright": "#fff8f5",
+                        "inverse-on-surface": "#f8efea",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#ffdad4",
+                        "on-surface": "#1e1b18",
+                        "surface-container-low": "#fbf2ed",
+                        "primary-fixed-dim": "#57e249",
+                        "tertiary-fixed-dim": "#ffb595",
+                        "background": "#fff8f5",
+                        "on-primary-container": "#f8fff0",
+                        "inverse-primary": "#57e249",
+                        "surface-container": "#f5ece7",
+                        "surface-container-highest": "#e9e1dc",
+                        "outline": "#6d7b67"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Epilogue"],
+                        "body": ["Be Vietnam Pro"],
+                        "label": ["Be Vietnam Pro"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Be Vietnam Pro', sans-serif; }
+        h1, h2, h3, .brand-font { font-family: 'Epilogue', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-green-700 dark:text-green-500" data-icon="local_pizza">local_pizza</span>
+<h1 class="text-2xl font-bold text-green-700 dark:text-green-500 font-['Epilogue'] tracking-tighter">Odi’s Pizzeria</h1>
+</div>
+<a href="tel:3613566842" class="bg-primary text-on-primary px-5 py-2.5 rounded-xl font-bold text-sm tracking-tight scale-95 active:opacity-80 transition-transform shadow-lg shadow-primary/20">
+                Order Now
+            </a>
+</div>
+</header>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[751px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Artisan wood-fired pizza" class="w-full h-full object-cover" data-alt="Close-up shot of a bubbling artisan pizza being pulled from a glowing wood-fired brick oven with sparks and warm embers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYcLGG1oLW0BJm3mQyrAN4L647sDh1RqwX2hwPtOKqgbLjf6or9pnmF8OebPI0HKko07C38eYcMC22Prfq8tz8irsz08GGKVZy9EgI-4qoXDutHQ-AM9iwP3T9SRxE2lwSN8yUncbeurxURUwT2Cn-8oDgdp3_pNAgmfdcJRFUU6WWUV8ySc9RfOybQTWATF6WXRaGaHJSyjkez01SBoGOV1g-HlcGZ25URDyQy6bSaEQ4x0eB-oLkq3xmM4SKCtrNKEW0ltD9R2Vv"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/90 via-on-background/40 to-transparent"></div>
+</div>
+<div class="relative z-10 px-6 max-w-7xl mx-auto w-full">
+<div class="max-w-xl">
+<h2 class="text-5xl md:text-7xl font-extrabold text-white leading-[1.1] tracking-tighter mb-6">
+                        Authentic <span class="text-secondary">Wood-Fired</span> Pizza in Corpus Christi
+                    </h2>
+<p class="text-xl text-surface-container-highest font-light mb-8 max-w-md">
+                        Locally owned, operated, and fired by tradition. Experience the taste of our community.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a href="#visit" class="bg-secondary text-on-secondary px-8 py-4 rounded-xl font-bold text-lg hover:bg-secondary-container transition-colors shadow-xl shadow-secondary/30">
+                            Visit Us
+                        </a>
+<a href="#menu" class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/20 transition-colors">
+                            Explore Menu
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Services/Products Bento Grid -->
+<section id="menu" class="py-24 px-6 max-w-7xl mx-auto">
+<div class="mb-16">
+<h3 class="text-4xl font-black tracking-tighter text-on-surface mb-2">The Selection</h3>
+<div class="h-1 w-20 bg-primary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Large Feature: Pizzas -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-3xl aspect-[4/3] md:aspect-auto md:h-[500px]">
+<img alt="Signature Pizzas" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Top-down view of multiple rustic wood-fired pizzas with fresh basil and mozzarella on a dark wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQesJnJfi8qaS9Nit11MienouNgHLkQEvnWdhi3U6ekH3189Bw3FB0Vuz43ccUm1kXjg-55TD7Gbx_WlyiLfphQPR5yZxjsgQCc5FDHu-k-Gz5rpcvhx-gqTdRuafb9gTraqpOX8skbvzIn1d2gImb6TPw_O6NLiLIBx-wpP8qpcXtf7ObqDAeFoctf_RgaZno1VZ6CrCZC6Itw6Q5B9NDA4jFP-zo66V_k5grJ9UuHCTvAjpudIqUCPBJpktdqIAKTb0yyUb5zqr-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<span class="text-secondary font-bold tracking-widest text-xs uppercase mb-2">Traditional Craft</span>
+<h4 class="text-3xl font-bold text-white mb-2">Our Signature Pizzas</h4>
+<p class="text-stone-300 max-w-md">Hand-stretched dough, cold-fermented for 48 hours, and fired at 900 degrees.</p>
+</div>
+</div>
+<!-- Small Feature: Pastas -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-3xl aspect-square md:h-[500px]">
+<img alt="Hand-Crafted Pastas" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Elegant plating of fresh tagliatelle pasta with rich tomato sauce and parmesan shavings in a warm restaurant setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbKUawTrsMnHMtv0GbxIdK2P1b0PWFN_CAGPIOKmPiLgc72wSbF3TCz1ibT93HkUIP4x57X_-KbcNP1c8Xw0EG_ilrsQ5BgT9nTy7KSFaUIi-vE-H0GfbtH_k4HWbJOrWa5jsw8BeqBay7_IgsaX4V7IOmDZh-ISDiqLOg3ltvM_CJL-7Me1M2KcPa5wPIEFZnqRBIg8Ko1VDTD-a3S4yEZolGcUlO0C6Q92znuEiJkQX11qqTt8LEb2YDF3QzCJ5QsDw-D2Ygt1sF"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h4 class="text-2xl font-bold text-white mb-2">Hand-Crafted Pastas</h4>
+<p class="text-stone-300 text-sm">Made fresh daily using imported Italian flour and farm-fresh eggs.</p>
+</div>
+</div>
+<!-- Small Feature: Salads -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-3xl aspect-square">
+<img alt="Fresh Salads" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Vibrant mediterranean salad with colorful tomatoes, cucumbers, and feta cheese drizzled with olive oil" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEy3mm2Fadra1uGL-rfDE3D5pky-B3Bj8HDF8ISBhjWpPjiMIH4kLa7IRK06M-IPqd9MJta3TrWeUy25vugCeFKXod6JWJ5M63scGcxVPLgOd8Y-7k71Bb14ePkMTcxxCuQKAXrScNOK4YvN1N58mQQ_mQleto3GSkjLgP6447oBOoMYXlFhK-la4pgWeGF-XW_EO7y5w4H7q0RMdYPu0HXYCoRR57ha8_S7dIeyetmmAPAhL38tKRmPeCL_aUJwVc3ubPiMsO8MsQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h4 class="text-2xl font-bold text-white mb-2">Fresh Salads</h4>
+<p class="text-stone-300 text-sm">Crisp, locally-sourced greens and house-made vinaigrettes.</p>
+</div>
+</div>
+<!-- Large Accent: The Fire -->
+<div class="md:col-span-8 bg-surface-container-high rounded-3xl p-12 flex flex-col justify-center border-l-8 border-primary">
+<h4 class="text-4xl font-black text-on-surface-variant mb-6 leading-tight">Beyond the Crust</h4>
+<p class="text-xl text-on-surface-variant/80 mb-8 font-light">At Odi’s, the wood fire isn't just a cooking method—it's the heart of everything we do. We use local oak to infuse every dish with a distinct, smoky soul you won't find anywhere else in the Coastal Bend.</p>
+<div class="flex gap-4">
+<span class="px-4 py-2 bg-tertiary-container text-on-tertiary-container rounded-full text-sm font-bold tracking-tight">Wood-Fired</span>
+<span class="px-4 py-2 bg-tertiary-container text-on-tertiary-container rounded-full text-sm font-bold tracking-tight">Locally Owned</span>
+<span class="px-4 py-2 bg-tertiary-container text-on-tertiary-container rounded-full text-sm font-bold tracking-tight">Artisan Craft</span>
+</div>
+</div>
+</div>
+</section>
+<!-- About Us Section: The Story -->
+<section class="bg-surface-container-low py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+<img alt="The Odi's Story" class="relative z-10 rounded-[2rem] shadow-2xl transform lg:-rotate-2" data-alt="Interior of a rustic Italian pizzeria with wood-paneled walls and a large copper-domed wood-fired oven in the background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAovtTGhhm0oOhTv514HXqe_pH7u3WtzQUTlGbZZajko3u_y7gZ0ulSVfK66KajgANhXZCPLoVNyyKdxXw1hPfqYZtGgGAHx35tF7hYJ9OsuREuWLnNVy9-3ddSem7Gtib5kqpqjMTD_3RJVODs8qdTqe4IPq25J0DY-AE42GttWc_Nnvv_owYyFSVSd2QYwCwA1pPFziB_ERu4xzvl0Pl0yPwwwdWz0A1Gt71A3opCGjptv39nc01KMHjr3t65TnN3Pivsc_8ELaed"/>
+<!-- <div class="absolute -bottom-8 -right-8 z-20 bg-white p-6 rounded-2xl shadow-xl max-w-[240px]">
+<p class="text-secondary font-black text-4xl mb-1 italic">2014</p>
+<p class="text-stone-600 text-sm font-medium">The first wood-fired hearth arrived in Corpus Christi.</p>
+</div> -->
+</div>
+<div class="lg:pl-12">
+<h3 class="text-secondary font-bold tracking-[0.2em] text-sm uppercase mb-4">Our Heritage</h3>
+<h2 class="text-5xl font-black text-on-surface mb-8 tracking-tighter">The Odi's Story</h2>
+<div class="space-y-6 text-lg text-on-surface-variant/90 leading-relaxed">
+<p>We didn't just want to open another pizza shop. We wanted to bring the authentic, tactile experience of the wood-fired hearth to our home.</p>
+<p>As Corpus Christi’s first locally owned wood-fired brick oven pizzeria, Odi's was born from a passion for the three pillars of great food: <strong>Fresh Ingredients, High Heat, and Deep Community Roots.</strong></p>
+<p>Every log of oak we burn is sourced from Texas soil, and every pizza that leaves our oven is a testament to the artisan craft we've perfected over a decade.</p>
+</div>
+<div class="mt-10 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-primary-container flex items-center justify-center text-white">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Odi</p>
+<p class="text-stone-500 text-sm">Founders</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact/Visit Section -->
+<section id="visit" class="py-24 px-6 max-w-7xl mx-auto">
+<div class="bg-on-background rounded-[3rem] overflow-hidden flex flex-col md:flex-row">
+<div class="p-12 md:w-1/2 flex flex-col justify-center">
+<h2 class="text-4xl font-black text-white mb-8 tracking-tighter">Find the Fire.</h2>
+<div class="space-y-8">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-fixed mt-1">location_on</span>
+<div>
+<p class="text-stone-400 text-sm mb-1 uppercase tracking-widest font-bold">Location</p>
+<p class="text-white text-xl">6313 Wooldridge Rd., <br>Corpus Christi, TX</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-fixed mt-1">call</span>
+<div>
+<p class="text-stone-400 text-sm mb-1 uppercase tracking-widest font-bold">Call Us</p>
+<p class="text-white text-xl">361-356-6842</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-fixed mt-1">schedule</span>
+<div>
+<p class="text-stone-400 text-sm mb-1 uppercase tracking-widest font-bold">Hours</p>
+<div class="text-white text-lg grid grid-cols-2 gap-x-8">
+<span>Wed - Sun</span><span>12pm - 9pm</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="md:w-1/2 min-h-[400px] relative">
+<img alt="Location Map" class="w-full h-full object-cover opacity-60" data-alt="Abstracted minimal map of a coastal city with a pin highlighting the downtown waterfront area" data-location="Corpus Christi, Texas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7JeMVixZ1WwO1tkWyAcN_6z5TUNbWKIZeuWdKO5S37U9fvYaWWxjxqp2j8mZ2uxDHWiFR1uiqC_F_HpMxwQ8cfuir33EttiiszZCDMUHVimkxMVb0I6M8mTOUHX-4RyV92JA_qkudy4yB0n0IvvD_o98ksNRd9BO4EZKm1H1b-HMLC1xtuU_O0a4PRIXUaM1Q1jsl-zFH4Mo-NFJlHI1GJoYVQayZ8jdnm5xSWTlAYAt2V0_Fhz56QE1GHW4tQn2_afpoKoPqtFru"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-overlay"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-6 mt-auto bg-stone-100 dark:bg-stone-950">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto items-center">
+<div class="text-center md:text-left">
+<h4 class="text-lg font-black text-stone-900 dark:text-stone-100 font-['Epilogue'] tracking-tight">Odi’s Pizzeria</h4>
+<p class="text-stone-500 dark:text-stone-400 text-sm mt-2 font-['Be_Vietnam_Pro']">© 2026 Odi’s Pizzeria &amp; Restaurant. Corpus Christi’s First Wood-Fired Hearth.</p>
+</div>
+<div class="flex justify-center gap-8">
+<a class="text-stone-500 dark:text-stone-400 font-medium text-sm hover:underline decoration-red-700 transition-colors" href="#">Menu</a>
+<a class="text-stone-500 dark:text-stone-400 font-medium text-sm hover:underline decoration-red-700 transition-colors" href="#">Visit Us</a>
+<a class="text-stone-500 dark:text-stone-400 font-medium text-sm hover:underline decoration-red-700 transition-colors" href="#">About Our Craft</a>
+</div>
+<div class="flex justify-center md:justify-end gap-6">
+<!-- <span class="material-symbols-outlined text-stone-500 hover:text-secondary cursor-pointer transition-colors" data-icon="facebook">social_leaderboard</span>
+<span class="material-symbols-outlined text-stone-500 hover:text-secondary cursor-pointer transition-colors" data-icon="instagram">retweet</span> -->
+</div>
+</div>
+</footer>
+</body></html>
